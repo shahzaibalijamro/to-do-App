@@ -6,16 +6,19 @@
     <title>to-do App</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <div class="head">
+        <div class="head animate__animated animate__slideInDown">
             <h1 style="font-family: Roboto, sans-serif;font-weight: 500;font-style: normal;font-size: 25px;">To-do App</h1>
             <i class="fa-solid fa fa-pen-clip"></i>
         </div>
-        <div class="search-box">
+        <div class="search-box animate__animated animate__slideInUp">
             <button onclick="addTodo()" class="btn-search"><i class="fa-solid fa fa-plus"></i></button>
             <input type="text" class="input-search input" placeholder="Add to-do">
         </div>
@@ -23,6 +26,7 @@
             
         </div>
     </div>
+    <p style="font-family: Roboto, sans-serif;font-weight: 400;font-style: normal;font-size: 17px;position: fixed;bottom: 3px;right: 10px;" class="para">Made By Shahzaib Ali using HTML, CSS and JS.</p>
     <script src="app.js"></script>
     <script src="https://kit.fontawesome.com/e686848577.js" crossorigin="anonymous"></script>
 </body>
