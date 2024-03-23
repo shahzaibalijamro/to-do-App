@@ -15,18 +15,17 @@
 <body>
     <div class="container">
         <div class="head animate__animated animate__slideInDown">
-            <h1 style="font-family: Roboto, sans-serif;font-weight: 500;font-style: normal;font-size: 25px;">To-do App</h1>
+            <h1 class="abc">To-do App</h1>
             <i class="fa-solid fa fa-pen-clip"></i>
         </div>
-        <div class="search-box animate__animated animate__slideInUp">
-            <button onclick="addTodo()" class="btn-search"><i class="fa-solid fa fa-plus"></i></button>
-            <input type="text" class="input-search input" placeholder="Add to-do">
-        </div>
+        <div class="search animate__animated animate__slideInUp">
+            <input class="input" placeholder="Enter to-do..." type="text">
+            <button  onclick="addTodo()" type="submit">Add</button>
+          </div>
         <div class="main">
             
         </div>
     </div>
-    <p style="font-family: Roboto, sans-serif;font-weight: 400;font-style: normal;font-size: 17px;position: fixed;bottom: 3px;right: 10px;" class="para">Made By Shahzaib Ali using HTML, CSS and JS.</p>
     <script src="app.js"></script>
     <script src="https://kit.fontawesome.com/e686848577.js" crossorigin="anonymous"></script>
 </body>
