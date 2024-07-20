@@ -30,7 +30,7 @@ function deleteTodo(index) {
     printTodo();
 }
 function editTodo(index) {
-    let edited = prompt('enter updated value');
+    let edited = prompt('enter updated value', todo[index]);
     todo.splice(index, 1, edited);
     printTodo();
 }
